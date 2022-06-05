@@ -1,3 +1,50 @@
-.message {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.message {
+    margin: 10px;
+    width: 390px;
+    min-height: 87px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: end;
+    margin-bottom: 4px;
+}
+
+.textWrapper {
+    width: 100%;
+    padding: 10px 20px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: darkviolet;
+    font-weight: 700;
+}
+
+.messageText {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.time {
+    font-size: 20px;
+    color: green;
+    align-self: end;
 }
