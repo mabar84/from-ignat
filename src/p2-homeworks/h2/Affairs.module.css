@@ -1,3 +1,28 @@
+.affair {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.affair p {
+    width: 200px;
+    /*background: #000;*/
+}
+
+.affair button {
+    min-width: 45px;
+    max-width: 45px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    color: red;
+    background: yellow;
+    border-radius: 50%;
+}
+
 .someClass {
 
 }
